@@ -9,7 +9,7 @@ inbounds:
   settings:
     decryption: none
     clients:
-    - id: uuid
+    - id: 813fd0cb-ba15-45d4-b3d2-3d6257eca36f
   streamSettings:
     network: ws
     wsSettings:
@@ -24,7 +24,7 @@ inbounds:
   protocol: vmess
   settings:
     clients:
-    - id: uuid
+    - id: 813fd0cb-ba15-45d4-b3d2-3d6257eca36f
   streamSettings:
     network: ws
     wsSettings:
@@ -38,7 +38,7 @@ inbounds:
 - port: 40000
   protocol: shadowsocks
   settings:
-    password: "uuid"
+    password: "813fd0cb-ba15-45d4-b3d2-3d6257eca36f"
     method: chacha20-ietf-poly1305
     ivcheck: true
   streamSettings:
@@ -55,7 +55,7 @@ inbounds:
   protocol: trojan
   settings:
     clients:
-    - password: "uuid"
+    - password: "813fd0cb-ba15-45d4-b3d2-3d6257eca36f"
   streamSettings:
     network: ws
     wsSettings:
